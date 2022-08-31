@@ -68,6 +68,7 @@ class GameTest {
             game.round(player1.getName(), "Александр");
         });
     }
+
     @Test
     public void unregisteredFirstPlayer() {
 
@@ -93,6 +94,7 @@ class GameTest {
         player.setId(1);
         assertEquals(player.getId(), 1);
     }
+
     @Test
     public void testSetName() {
         Player player = new Player();
